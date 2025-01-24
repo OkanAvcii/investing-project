@@ -1,0 +1,50 @@
+.search-bar{
+    width: 850px;
+    height: 70px;
+    margin: auto;
+    background-color: #FFF8F3;
+    color: #405D72;
+    border: 1px solid #758694;
+    box-shadow: 0 0 20px #758694;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .markets{
+        display: flex;
+        gap: 40px;
+        padding: 0;
+        li{
+            list-style: none;
+            transition: 1s;
+            cursor: pointer;
+            &:hover{
+                color: red;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .input{
+        input{
+            padding: 8px 14px;
+            padding-left: 40px;
+            border-radius: 20px;
+            border: 1px solid #758694;
+            transition: 1s;
+            &:hover{
+                color: #758694;
+                transform: scale(1.1);
+                border: 1px solid red;
+            }
+        }
+        position: relative;
+        .scope{
+            position: absolute;
+            z-index: 1;
+            left: 10px;
+            top: 8px;
+            color: #758694;
+        }
+    }
+}

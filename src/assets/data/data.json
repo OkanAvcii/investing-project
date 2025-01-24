@@ -1,0 +1,197 @@
+{
+  "stocks": [
+    {
+      "stockCategory": "NYSE",
+      "stockName": "Boeing",
+      "stockQuantity": 0,
+      "stockPrice": 155,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "stockCategory": "Nasdaq 100",
+      "stockName": "Intel",
+      "stockQuantity": 250,
+      "stockPrice": 22.52,
+      "stockIcon": "https://w7.pngwing.com/pngs/1003/722/png-transparent-intel-logo-xeon-intel-blue-cdr-text-thumbnail.png"
+    },
+    {
+      "id": "3",
+      "stockCategory": "Nasdaq 100",
+      "stockName": "Microsoft",
+      "stockQuantity": 50,
+      "stockPrice": 408.46,
+      "stockIcon": "https://w7.pngwing.com/pngs/827/526/png-transparent-microsoft-windows-microsoft-outlook-microsoft-office-microsoft-logo-s-text-rectangle-triangle-thumbnail.png"
+    },
+    {
+      "id": "4",
+      "stockCategory": "S&P 500",
+      "stockName": "Bank of America",
+      "stockQuantity": 500,
+      "stockPrice": 41.33,
+      "stockIcon": "https://w7.pngwing.com/pngs/295/537/png-transparent-logo-bank-of-america-investment-banking-bank-blue-emblem-flag-thumbnail.png"
+    },
+    {
+      "id": "5",
+      "stockCategory": "Dow Jones",
+      "stockName": "Lockheed Martin",
+      "stockQuantity": 40,
+      "stockPrice": 543.1,
+      "stockIcon": "https://w7.pngwing.com/pngs/332/567/png-transparent-lockheed-martin-rms-aerospace-lockheed-martin-uk-engineering-lockheed-martin-fb-22-blue-angle-text-thumbnail.png"
+    },
+    {
+      "id": "6",
+      "stockCategory": "S&P 500",
+      "stockName": "JPMorgan",
+      "stockQuantity": 1000,
+      "stockPrice": 219.78,
+      "stockIcon": "https://w7.pngwing.com/pngs/700/346/png-transparent-jpmorgan-chase-asset-management-investment-business-business-text-people-investment-thumbnail.png"
+    },
+    {
+      "stockCategory": "NYSE",
+      "stockName": "Intel",
+      "stockQuantity": "0",
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "7"
+    },
+    {
+      "stockCategory": "NYSE",
+      "stockName": "Boeing",
+      "stockQuantity": 0,
+      "stockPrice": 155,
+      "id": "8"
+    },
+    {
+      "stockCategory": "Dow Jones",
+      "stockName": "Intel",
+      "stockQuantity": 0,
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "9"
+    },
+    {
+      "stockCategory": "S&P 500",
+      "stockName": "Microsoft",
+      "stockQuantity": 0,
+      "stockPrice": "30",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "10"
+    },
+    {
+      "stockCategory": "Dow Jones",
+      "stockName": "Boeing",
+      "stockQuantity": 80,
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "11"
+    },
+    {
+      "stockCategory": "Dow Jones",
+      "stockName": "Boeing",
+      "stockQuantity": 110,
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "12"
+    },
+    {
+      "stockCategory": "S&P 500",
+      "stockName": "Lockheed Martin",
+      "stockQuantity": 0,
+      "stockPrice": "155",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "13"
+    },
+    {
+      "id": "14",
+      "stockCategory": "S&P 500",
+      "stockName": "Intel",
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": ""
+    },
+    {
+      "id": "15",
+      "stockCategory": "Nasdaq 100",
+      "stockName": "Microsoft",
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": ""
+    },
+    {
+      "stockCategory": "S&P 500",
+      "stockName": "Bank of America",
+      "stockPrice": "100",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "16"
+    },
+    {
+      "stockCategory": "NYSE",
+      "stockName": "JPMorgan",
+      "stockQuantity": 100,
+      "stockPrice": "200",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "17"
+    },
+    {
+      "id": "18",
+      "stockCategory": "S&P 500",
+      "stockName": "Intel",
+      "stockQuantity": 50,
+      "stockPrice": "50",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": ""
+    },
+    {
+      "stockCategory": "S&P 500",
+      "stockName": "Bank of America",
+      "stockQuantity": 0,
+      "stockPrice": "150",
+      "stockTotal": "",
+      "stockIncrease": "",
+      "stockImage": "",
+      "id": "19"
+    }
+  ],
+  "markets": [
+    {
+      "id": "1",
+      "marketName": "Tüm Borsalar"
+    },
+    {
+      "id": "2",
+      "marketName": "Dow Jones"
+    },
+    {
+      "id": "3",
+      "marketName": "S&P 500"
+    },
+    {
+      "id": "4",
+      "marketName": "Nasdaq 100"
+    },
+    {
+      "id": "5",
+      "marketName": "NYSE"
+    }
+  ]
+}

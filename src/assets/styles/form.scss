@@ -1,0 +1,134 @@
+form{
+    border: 2px solid #F7E7DC;
+    box-shadow: 0 0 20px #758694;
+    margin: 30px auto;
+    width: 700px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 10px;
+    background-color: #FFF8F3;
+    input,select{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        border-radius: 15px;
+        border: 1px solid #758694;
+        font-family: "Rubik", sans-serif;
+    }
+    h3{
+        color: #405D72;
+    }
+    label{
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-bottom: 3px;
+        color: #405D72;
+    }
+    button{
+        height: 35px;
+        border-radius: 30px;
+        width: 200px;
+        cursor: pointer;
+        border: 1px solid #405D72;
+        color: #405D72;
+        background: transparent;
+        transition: 1s;
+        letter-spacing: 2px;
+
+        &:hover{
+            border: 1px solid red;
+            color: red;
+            background: transparent;
+        }
+        &:disabled{
+            border-color: lightgray;
+            color: lightgray;
+            cursor: auto;
+        }
+    }
+    .buttons{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        color: #405D72;
+    }
+
+    
+    .login{
+        h3{
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+        height: 370px;
+        input,label{
+            height: 40px;
+            border-radius: 40px;
+            width: 100%;
+            justify-content: center;
+            font-family: "Rubik", sans-serif;
+        }
+        .login-buttons{
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+            color: #405D72;
+            button{
+                display: block;
+                height: 40px;
+                width: 250px;
+                padding: 5px 10px;
+                border-radius: 40px;
+                border: 1px solid #758694;
+                font-family: "Rubik", sans-serif;
+                &:hover{
+                    border: 1px solid red;
+                    color: red;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
+html,body,#root,.loading-page{
+    height: 100%;
+}
+.loading-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+    scale: 2;
+    width: 65px;
+    display: grid;
+    --mask: 
+      radial-gradient(12px at left 15px top 50%, #0000 95%, #000),
+      radial-gradient(12px at right 15px top 50%, #0000 95%, #000);
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    -webkit-mask-composite: source-in;
+            mask-composite: intersect;
+    animation: l1 1s infinite alternate;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    grid-area: 1/1;
+    height: 30px;
+    aspect-ratio: 1;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .loader:after {
+    margin-left: auto;
+  }
+  @keyframes l1 {
+    to {
+      width: 40px;
+    }
+  }
